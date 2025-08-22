@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web Design with Flexbox & Grid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo">FlexGrid</div>
+            <div class="hamburger">☰</div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Testimonials</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Modern Responsive Web Design</h1>
+            <p>Learn how to create beautiful, responsive layouts with CSS Flexbox and Grid. Our approach ensures your website looks great on all devices.</p>
+            <a href="#" class="btn">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Features Section using CSS Grid -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Our Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="card-img">📱</div>
+                    <div class="card-content">
+                        <h3>Fully Responsive</h3>
+                        <p>Your website will work perfectly on any device, from mobile phones to desktop computers.</p>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="card-img">⚡</div>
+                    <div class="card-content">
+                        <h3>Fast Performance</h3>
+                        <p>Optimized code and assets ensure your website loads quickly and performs smoothly.</p>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="card-img">🎨</div>
+                    <div class="card-content">
+                        <h3>Modern Design</h3>
+                        <p>Clean, contemporary designs that follow the latest web design trends and best practices.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section using Flexbox -->
+    <section class="section" style="background-color: #f5f5f5;">
+        <div class="container">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <div class="testimonials-container">
+                <div class="testimonial">
+                    <p class="testimonial-text">"This responsive design approach completely transformed our website. Now we have a consistent experience across all devices."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JD</div>
+                        <div>
+                            <h4>senior kiogo</h4>
+                            <p>CEO, Tech Solutions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <p class="testimonial-text">"The combination of Flexbox and Grid made our development process much more efficient and our layouts more consistent."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JS</div>
+                        <div>
+                            <h4>mr wantam</h4>
+                            <p>Web Developer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <p class="testimonial-text">"Our conversion rates increased by 40% after implementing this responsive design. Highly recommended!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">RJ</div>
+                        <div>
+                            <h4>kasongo </h4>
+                            <p>Marketing Director</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section using CSS Grid -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Pricing Plans</h2>
+            <div class="pricing-grid">
+                <div class="pricing-plan">
+                    <h3 class="plan-name">Basic</h3>
+                    <div class="plan-price">$19<span>/mo</span></div>
+                    <ul class="plan-features">
+                        <li>Responsive Design</li>
+                        <li>Up to 5 Pages</li>
+                        <li>Basic SEO</li>
+                        <li>1 GB Hosting</li>
+                    </ul>
+                    <a href="#" class="btn">Get Started</a>
+                </div>
+                <div class="pricing-plan" style="border: 2px solid var(--primary-color); transform: scale(1.05);">
+                    <h3 class="plan-name">Pro</h3>
+                    <div class="plan-price">$49<span>/mo</span></div>
+                    <ul class="plan-features">
+                        <li>Advanced Responsive Design</li>
+                        <li>Up to 20 Pages</li>
+                        <li>Advanced SEO</li>
+                        <li>5 GB Hosting</li>
+                        <li>Email Support</li>
+                    </ul>
+                    <a href="#" class="btn">Get Started</a>
+                </div>
+                <div class="pricing-plan">
+                    <h3 class="plan-name">Enterprise</h3>
+                    <div class="plan-price">$99<span>/mo</span></div>
+                    <ul class="plan-features">
+                        <li>Custom Responsive Design</li>
+                        <li>Unlimited Pages</li>
+                        <li>E-commerce Features</li>
+                        <li>20 GB Hosting</li>
+                        <li>Priority Support</li>
+                    </ul>
+                    <a href="#" class="btn">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>FlexGrid</h3>
+                    <p>Creating beautiful, responsive websites using modern CSS techniques.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">f</a>
+                        <a href="#" class="social-link">t</a>
+                        <a href="#" class="social-link">in</a>
+                        <a href="#" class="social-link">ig</a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">API</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul class="footer-links">
+                        <li>1234 Design Street</li>
+                        <li>Webville, WW 12345</li>
+                        <li>info@flexgrid.com</li>
+                        <li>+1 (555) 123-4567</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 kiogora newton. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
